@@ -11,7 +11,7 @@ import { selectors } from './store/reducer';
 const Customers = ({ loaders, getCustomers, customers }) => {
   useEffect(() => {
     getCustomers();
-  }, []);
+  }, [getCustomers]);
 
   return (
     <Container>

@@ -1,6 +1,6 @@
 {
   "name": "portal-deermg",
-  "version": "0.1.0",
+  "version": "v1.16.0",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
@@ -27,11 +27,14 @@
     "babel-loader": "^8.0.5",
     "eslint": "^5.14.1",
     "eslint-config-prettier": "^4.1.0",
+    "eslint-config-react-app": "^4.0.1",
     "eslint-loader": "^2.1.2",
+    "eslint-plugin-flowtype": "^3.8.2",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.6.0",
     "redux-devtools-extension": "^2.13.8"
   }
 }
